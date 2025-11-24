@@ -1,0 +1,19 @@
+# Moonshine Speech Recognition Dependencies
+# Install with: pip install -r requirements-moonshine.txt
+
+# Core Moonshine package (ONNX runtime for fast inference)
+git+https://github.com/moonshine-ai/moonshine.git#subdirectory=moonshine-onnx
+
+# Audio processing dependencies
+numpy>=1.21.0
+audioop-lts>=0.2.0
+audioread>=3.0.0
+
+# Optional: For better audio format support
+scipy>=1.7.0
+librosa>=0.9.0
+
+# System dependencies (install separately if needed)
+# Windows: No additional system deps required
+# Linux: sudo apt-get install libsndfile1
+# macOS: brew install libsndfile

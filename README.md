@@ -1,426 +1,267 @@
-<div align="center">
+# Cluely
 
-<img src="https://i.ibb.co/B26x7BTg/logo-mindwhisperai.png" alt="MindWhisper AI Logo - Free Cluely Alternative" width="200"/>
+[Cluely](https://cluely.com) - The invisible desktop assistant that provides real-time insights, answers, and support during meetings, interviews, presentations, and professional conversations.
 
-# MindWhisper AI
+## Sponsored by Recall AI - API for desktop recording
+If you’re looking for a hosted desktop recording API, consider checking out [Recall.ai](https://www.recall.ai/product/desktop-recording-sdk?utm_source=github&utm_medium=sponsorship&utm_campaign=prat011-free-cluely), an API that records Zoom, Google Meet, Microsoft Teams, in-person meetings, and more.
 
+## 🚀 Quick Start Guide
 
-
-### Free Cluely Alternative | Final Round AI Alternative | Free Meeting Assistant AI
-
-
----
-
-> ⚠️ **Important Notice**  
-> If you detect any issue, want a feature improvement, or have a new feature request, please **[raise an issue](../../issues/new)**.  
-> I kindly request you to **⭐ star this repository** once you’re done. Thank you for your support! 🙏
-
----
-
-**The best free alternative to Cluely and Final Round AI. A stealth desktop assistant that listens, transcribes, and delivers instant AI-powered responses in real-time—without anyone knowing.**
-
-[![Download Latest Release](https://img.shields.io/badge/Download-Latest%20Release-black?style=for-the-badge&logo=windows)](../../releases/latest)
-[![Windows](https://img.shields.io/badge/Windows-10%2F11-0078D6?style=for-the-badge&logo=windows)](../../releases)
-[![Free Trial](https://img.shields.io/badge/Free%20Trial-Available%20Now-success?style=for-the-badge)](../../releases/latest)
-
-**Keywords:** `mindwhisper ai` • `mindwhisper ai free` • `mindwhisper ai github` • `cluely alternative` • `cluely alternative free` • `cluely github` • `cluely free github` • `cluely alternative github` • `final round ai alternative` • `final round ai free alternative` • `free meeting assistant ai`
-
-[🚀 Download Now](#-download--installation) • [✨ Features](#-key-features) • [📸 Screenshots](#-screenshots) • [🆚 Compare](#-why-choose-mindwhisper-ai-over-competitors) • [💬 Support](#-support)
-
-<img src="https://imgpx.com/en/hi9uAi0ZhgkC.webp" alt="KGmA6fS.md.png" alt="MindWhisper AI - Free Cluely Alternative Interface" width="800"/>
-
-</div>
-
----
-
-## 🎬 What is MindWhisper AI?
-
-**MindWhisper AI** is the **best free alternative to Cluely and Final Round AI**. It's a revolutionary **free meeting assistant AI** desktop application that acts as your **invisible AI assistant** during meetings, interviews, presentations, and live conversations. 
-
-Unlike paid alternatives like Cluely or Final Round AI, **MindWhisper AI is completely free** and open for download on GitHub. It captures audio, transcribes in real-time, and provides instant AI-generated responses—all while remaining **completely undetectable** during screen shares.
-
-### 🆚 Why Choose MindWhisper AI Over Competitors?
-
-| Feature | MindWhisper AI (Free) | Cluely | Final Round AI |
-|---------|----------------------|--------|----------------|
-| **Price** | ✅ **FREE** | 💰 Paid | 💰 Paid |
-| **GitHub Available** | ✅ Yes | ❌ No | ❌ No |
-| **Real-Time Transcription** | ✅ | ✅ | ✅ |
-| **AI Responses** | ✅ | ✅ | ✅ |
-| **Stealth Mode** | ✅ | ⚠️ Limited | ⚠️ Limited |
-| **Local Processing** | ✅ | ❌ | ❌ |
-| **No Subscription** | ✅ | ❌ | ❌ |
-| **Privacy-First** | ✅ | ⚠️ | ⚠️ |
-
-**MindWhisper AI GitHub** is the **#1 free Cluely alternative** and **free Final Round AI alternative** available for download right now.
-
-### 🎯 Perfect For:
-
-- **Job Interviews** - Get instant answers to technical questions
-- **Client Meetings** - Access relevant information on-the-fly
-- **Sales Calls** - Receive real-time objection handling suggestions
-- **Presentations** - Have backup answers for unexpected questions
-- **Technical Discussions** - Quick access to complex information
-- **Language Support** - Real-time translation and comprehension help
-
----
-
-## ✨ Key Features
-
-### 🎭 **Stealth Mode Technology**
-- **Invisible During Screen Shares** - Completely undetectable when sharing your screen
-- **Transparent Interface** - Adjustable opacity from 0-100%
-- **Hotkey Controls** - Instant show/hide with customizable shortcuts
-- **No Taskbar Icon** - Runs discreetly in the background
-
-### 🎤 **Real-Time Intelligence**
-- **Live Audio Transcription** - Instant speech-to-text conversion
-- **AI-Powered Responses** - Get intelligent answers in milliseconds
-- **Context-Aware Suggestions** - Understands conversation flow
-- **Multi-Language Support** - Works with 50+ languages
-
-### 🔒 **Privacy-First Design**
-- **Local Processing** - Your data never leaves your device
-- **No Cloud Storage** - All transcripts stored locally
-- **Encrypted Data** - Military-grade encryption for sensitive information
-- **Zero Tracking** - No telemetry or usage data collection
-
-### ⚡ **Powerful Features**
-- **Customizable Shortcuts** - Set your own hotkeys for all actions
-- **Smart Commands** - Quick actions with natural language
-- **Chat Interface** - Interactive AI conversation window
-- **Export Transcripts** - Save conversations for later review
-- **Audio Recording** - Optional recording with one-click save
-- **Personalization** - Customize AI behavior and responses
-
----
-
-## 📥 Download & Installation
-
-### System Requirements
-- **OS**: Windows 10/11 (64-bit)
-- **RAM**: 4GB minimum (8GB recommended)
-- **Storage**: 500MB free space
-- **Internet**: Required for AI features
+### Prerequisites
+- Make sure you have Node.js installed on your computer
+- Git installed on your computer  
+- **Either** a Gemini API key (get it from [Google AI Studio](https://makersuite.google.com/app/apikey))
+- **Or** Ollama installed locally for private LLM usage (recommended for privacy)
 
 ### Installation Steps
 
-1. **Download the Latest Release**
-   - Go to [Releases](../../releases/latest)
-   - Download `MindWhisperAI-Setup.exe`
+1. Clone the repository:
+```bash
+git clone [repository-url]
+cd free-cluely
+```
 
-2. **Run the Installer**
-   - Double-click the downloaded file
-   - Follow the installation wizard
-   - Grant necessary permissions when prompted
+2. Install dependencies:
+```bash
+# If you encounter Sharp/Python build errors, use this:
+SHARP_IGNORE_GLOBAL_LIBVIPS=1 npm install --ignore-scripts
+npm rebuild sharp
 
-3. **Launch & Configure**
-   - Open MindWhisper AI from your desktop
-   - Complete the initial setup
-   - Configure your hotkeys and preferences
+# Or for normal installation:
+npm install
+```
 
-4. **Start Using**
-   - Press your hotkey to activate
-   - Start speaking and watch the magic happen!
+3. Set up environment variables:
+   - Create a file named `.env` in the root folder
+   
+   **For Gemini (Cloud AI):**
+   ```env
+   GEMINI_API_KEY=your_api_key_here
+   ```
+   
+   **For Ollama (Local/Private AI):**
+   ```env
+   USE_OLLAMA=true
+   OLLAMA_MODEL=llama3.2
+   OLLAMA_URL=http://localhost:11434
+   ```
+   
+   - Save the file
+
+### Running the App
+
+#### Method 1: Development Mode (Recommended for first run)
+1. Start the development server:
+```bash
+npm start
+```
+
+This command automatically:
+- Starts the Vite dev server on port 5180
+- Waits for the server to be ready
+- Launches the Electron app
+
+#### Method 2: Production Build
+```bash
+npm run dist
+```
+The built app will be in the `release` folder.
+
+## 🤖 AI Provider Options
+
+### Ollama (Recommended for Privacy)
+**Pros:**
+- 100% private - data never leaves your computer
+- No API costs
+- Works offline
+- Supports many models: llama3.2, codellama, mistral, etc.
+
+**Setup:**
+1. Install Ollama from [ollama.ai](https://ollama.ai)
+2. Pull a model: `ollama pull llama3.2`
+3. Set environment variables as shown above
+
+### Google Gemini
+**Pros:**
+- Latest AI technology
+- Fastest responses
+- Best accuracy for complex tasks
+
+**Cons:**
+- Requires API key and internet
+- Data sent to Google servers
+- Usage costs apply
+
+### ⚠️ Important Notes
+
+1. **Closing the App**: 
+   - Press `Cmd + Q` (Mac) or `Ctrl + Q` (Windows/Linux) to quit
+   - Or use Activity Monitor/Task Manager to close `Interview Coder`
+   - The X button currently doesn't work (known issue)
+
+2. **If the app doesn't start**:
+   - Make sure no other app is using port 5180
+   - Try killing existing processes:
+     ```bash
+     # Find processes using port 5180
+     lsof -i :5180
+     # Kill them (replace [PID] with the process ID)
+     kill [PID]
+     ```
+   - For Ollama users: Make sure Ollama is running (`ollama serve`)
+
+3. **Keyboard Shortcuts**:
+   - `Cmd/Ctrl + B`: Toggle window visibility
+   - `Cmd/Ctrl + H`: Take screenshot
+   - 'Cmd/Enter': Get solution
+   - `Cmd/Ctrl + Arrow Keys`: Move window
+
+## 🔧 Troubleshooting
+
+### Windows Issues Fixed 
+- **UI not loading**: Port mismatch resolved
+- **Electron crashes**: Improved error handling  
+- **Build failures**: Production config updated
+- **Window focus problems**: Platform-specific fixes applied
+
+### Ubuntu/Linux Issues Fixed 
+- **Window interaction**: Fixed focusable settings
+- **Installation confusion**: Clear setup instructions
+- **Missing dependencies**: All requirements documented
+
+### Common Solutions
+
+#### Sharp/Python Build Errors
+If you see `gyp ERR! find Python` or Sharp build errors:
+```bash
+# Solution 1: Use prebuilt binaries
+rm -rf node_modules package-lock.json
+SHARP_IGNORE_GLOBAL_LIBVIPS=1 npm install --ignore-scripts
+npm rebuild sharp
+
+# Solution 2: Or install Python (if you prefer building from source)
+brew install python3  # macOS
+# Then run: npm install
+```
+
+#### General Installation Issues
+If you see other errors:
+1. Delete the `node_modules` folder
+2. Delete `package-lock.json` 
+3. Run `npm install` again
+4. Try running with `npm start`
+
+### Platform-Specific Notes
+- **Windows**: App now works on Windows 10/11
+- **Ubuntu/Linux**: Tested on Ubuntu 20.04+ and most Linux distros  
+- **macOS**: Native support with proper window management
+
+## Key Features
+
+### **Invisible AI Assistant**
+- Translucent, always-on-top window that's barely noticeable
+- Hide/show instantly with global hotkeys
+- Works seamlessly across all applications
+
+### **Smart Screenshot Analysis** 
+- Take screenshots of any content with `Cmd/Ctrl + H`
+- AI analyzes images, documents, presentations, or problems
+- Get instant explanations, answers, and solutions
+
+### **Audio Intelligence**
+- Process audio files and recordings
+- Real-time transcription and analysis
+- Perfect for meeting notes and content review
+
+### **Contextual Chat**
+- Chat with AI about anything you see on screen
+- Maintains conversation context
+- Ask follow-up questions for deeper insights
+
+### **Privacy-First Design**
+- **Local AI Option**: Use Ollama for 100% private processing
+- **Cloud Option**: Google Gemini for maximum performance
+- Screenshots auto-deleted after processing
+- No data tracking or storage
+
+### **Cross-Platform Support**
+- **Windows 10/11** - Full support with native performance
+- **Ubuntu/Linux** - Optimized for all major distributions  
+- **macOS** - Native window management and shortcuts
+
+## Use Cases
+
+### **Academic & Learning**
+```
+✓ Live presentation support during classes
+✓ Quick research during online exams  
+✓ Language translation and explanations
+✓ Math and science problem solving
+```
+
+### **Professional Meetings**
+```
+✓ Sales call preparation and objection handling
+✓ Technical interview coaching
+✓ Client presentation support
+✓ Real-time fact-checking and data lookup
+```
+
+### **Development & Tech**
+```
+✓ Debug error messages instantly
+✓ Code explanation and optimization
+✓ Documentation and API references
+✓ Algorithm and architecture guidance
+```
+
+## Why Choose Free Cluely?
+
+| Feature | Free Cluely | Commercial Alternatives |
+|---------|-------------|------------------------|
+| **Cost** | 100% Free | $29-99/month |
+| **Privacy** | Local AI Option | Cloud-only |
+| **Open Source** | Full transparency | Closed source |
+| **Customization** | Fully customizable | Limited options |
+| **Data Control** | You own your data | Third-party servers |
+| **Offline Mode** | Yes (with Ollama) | No |
+
+## Technical Details
+
+### **AI Models Supported**
+- **Gemini 2.0 Flash** - Latest Google AI with vision capabilities
+- **Llama 3.2** - Meta's advanced local model via Ollama
+- **CodeLlama** - Specialized coding assistance
+- **Mistral** - Lightweight, fast responses
+- **Custom Models** - Any Ollama-compatible model
+
+### **System Requirements**
+```bash
+Minimum:  4GB RAM, Dual-core CPU, 2GB storage
+Recommended: 8GB+ RAM, Quad-core CPU, 5GB+ storage
+Optimal: 16GB+ RAM for local AI models
+```
+
+## 🤝 Contributing
+
+This project welcomes contributions! While I have limited time for active maintenance, I'll review and merge quality PRs.
+
+**Ways to contribute:**
+- 🐛 Bug fixes and stability improvements
+- ✨ New features and AI model integrations  
+- 📚 Documentation and tutorial improvements
+- 🌍 Translations and internationalization
+- 🎨 UI/UX enhancements
+
+For commercial integrations or custom development, reach out on [Twitter](https://x.com/prathitjoshi_)
+
+## 📄 License
+
+ISC License - Free for personal and commercial use.
 
 ---
 
-## 📸 Screenshots
+**⭐ Star this repo if Free Cluely helps you succeed in meetings, interviews, or presentations!**
 
-<div align="center">
-
-### Main Application Interface
-<img src="https://i.ibb.co/5WbJBpqZ/high-quality-main-application-toolbar.png" alt="Main Application Toolbar" width="700"/>
-<p><i>Clean, minimalist toolbar with all essential controls at your fingertips</i></p>
-</div>
-
-<div align="center">
-
-### Real-Time Chat & AI Responses
-<img src="https://i.ibb.co/rR9MWwZG/chat-image-2.png" alt="AI Chat Interface" width="700"/>
-<p><i>Get instant AI-powered answers during your conversations</i></p>
-</div>
-
-<div align="center">
-
-### Live Screen Solving
-<img src="https://i.ibb.co/9HS5pxkv/live-screen-chat-solve.png" alt="Live Screen Chat" width="700"/>
-<p><i>Real-time problem solving while you're in meetings</i></p>
-</div>
-
-<div align="center">
-
-### Live Transcription
-<img src="https://i.ibb.co/5XgV8Vm4/transcript.png" alt="Live Transcript" width="700"/>
-<p><i>Accurate real-time transcription of all conversations</i></p>
-</div>
-
-<div align="center">
-
-### Audio Recording & Playback
-<img src="https://i.ibb.co/JjRtx40D/audio-feature.png" alt="Audio Features" width="700"/>
-<p><i>Record and save important conversations for later review</i></p>
-</div>
-
-<div align="center">
-
-### Recording Controls
-<img src="https://i.ibb.co/HTZ8F7sf/record-bar.png" alt="Record Bar" width="700"/>
-<p><i>Simple, intuitive recording controls</i></p>
-</div>
-
-<div align="center">
-
-### Actionable AI Commands
-<img src="https://i.ibb.co/HfDN0DFs/actionable-commands.png" alt="Actionable Commands" width="700"/>
-<p><i>Quick actions and smart commands for instant productivity</i></p>
-</div>
-
-<div align="center">
-
-### Transparency Control
-<img src="https://i.ibb.co/RGp9TK30/transparecy-control.png" alt="Transparency Control" width="700"/>
-<p><i>Adjust opacity from 0-100% for perfect stealth mode</i></p>
-</div>
-
-<div align="center">
-
-### Customizable Shortcuts
-<img src="https://i.ibb.co/dw728rSM/shortcut.png" alt="Keyboard Shortcuts" width="700"/>
-<p><i>Set your own hotkeys for all actions</i></p>
-</div>
-
-<div align="center">
-
-### AI Personalization
-<img src="https://i.ibb.co/Y76zh2hH/personalization.png" alt="Personalization Settings" width="700"/>
-<p><i>Customize AI behavior, tone, and response style to match your needs</i></p>
-</div>
-
----
-
-## 🚀 How It Works
-
-### 1️⃣ **Capture Audio**
-MindWhisper AI captures system audio or microphone input in real-time using advanced audio processing.
-
-### 2️⃣ **Transcribe Instantly**
-State-of-the-art speech recognition converts audio to text with industry-leading accuracy.
-
-### 3️⃣ **AI Analysis**
-Powerful AI models analyze the conversation context and generate intelligent responses.
-
-### 4️⃣ **Get Answers**
-Receive instant, relevant answers displayed in your customizable interface—invisible to others.
-
----
-
-## 🎨 Interface Overview
-
-### Main Toolbar
-- **Minimalist Design** - Clean, professional interface
-- **Drag & Drop** - Position anywhere on your screen
-- **Quick Actions** - One-click access to all features
-- **Status Indicators** - Visual feedback for all operations
-
-### Chat Window
-- **Real-Time Responses** - Instant AI-generated answers
-- **Conversation History** - Scroll through past interactions
-- **Copy & Paste** - Easily extract information
-- **Search Function** - Find specific information quickly
-
-### Transcript View
-- **Live Transcription** - See what's being said in real-time
-- **Speaker Detection** - Identifies different speakers
-- **Timestamps** - Track when things were said
-- **Export Options** - Save as TXT, PDF, or DOCX
-
----
-
-## ⚙️ Configuration
-
-### Hotkey Customization
-Set custom keyboard shortcuts for:
-- Show/Hide Interface
-- Start/Stop Recording
-- Toggle Stealth Mode
-- Open Chat Window
-- Clear Transcript
-- Emergency Hide (instant disappear)
-
-### Transparency Control
-- Adjust interface opacity from 0-100%
-- Set different opacity for active/inactive states
-- Auto-hide when not in use
-- Screen share detection with auto-stealth
-
-### AI Personalization
-- Choose AI personality and tone
-- Set response length preferences
-- Configure language and dialect
-- Custom system prompts for specific use cases
-
----
-
-## 🎯 Use Cases
-
-### 💼 **Job Interviews**
-Get instant help with technical questions, behavioral scenarios, and company-specific information without missing a beat.
-
-### 🤝 **Client Meetings**
-Access product details, pricing information, and objection handling strategies in real-time during sales calls.
-
-### 🎓 **Online Learning**
-Receive explanations, translations, and clarifications during live lectures or webinars.
-
-### 💬 **Language Barriers**
-Real-time translation and comprehension assistance for non-native speakers in professional settings.
-
-### 🎤 **Public Speaking**
-Have backup information and talking points ready during presentations or Q&A sessions.
-
-### 📞 **Customer Support**
-Quick access to knowledge base articles and solution suggestions during support calls.
-
----
-
-## 🔐 Privacy & Security
-
-### Your Data, Your Device
-- **100% Local Processing** - All AI operations run on your machine
-- **No Cloud Uploads** - Transcripts and recordings never leave your computer
-- **Encrypted Storage** - All data encrypted at rest using AES-256
-- **Secure Memory** - Sensitive data cleared from RAM after use
-
-### Compliance
-- **GDPR Compliant** - Full control over your personal data
-- **No Tracking** - Zero telemetry or analytics collection
-- **Open About Permissions** - Clear explanation of all required access
-
----
-
-## 📊 Comparison
-
-| Feature | MindWhisper AI | Traditional Note-Taking | Other AI Tools |
-|---------|----------------|------------------------|----------------|
-| Real-Time Transcription | ✅ | ❌ | ⚠️ Limited |
-| AI-Powered Responses | ✅ | ❌ | ✅ |
-| Stealth Mode | ✅ | ❌ | ❌ |
-| Local Processing | ✅ | ✅ | ❌ |
-| Screen Share Safe | ✅ | ⚠️ Manual | ❌ |
-| Customizable Hotkeys | ✅ | ❌ | ⚠️ Limited |
-| Multi-Language | ✅ | ❌ | ✅ |
-| Privacy-First | ✅ | ✅ | ❌ |
-
----
-
-## 🎁 Get Started Today - 100% Free
-
-### 🆓 **MindWhisper AI Free - No Cluely Subscription Needed**
-Looking for a **free Cluely alternative** or **free Final Round AI alternative**? **MindWhisper AI is completely free** on GitHub!
-
-- ✅ **100% FREE** - No subscription like Cluely or Final Round AI
-- ✅ **Full access** to all features
-- ✅ **No credit card** required
-- ✅ **No limitations** during trial
-- ✅ **No time limit** - use it as long as you need
-- ✅ **Available on GitHub** - Download anytime
-
-### 💼 **Why Pay for Cluely When MindWhisper AI is Free?**
-Stop paying monthly subscriptions for Cluely or Final Round AI. **MindWhisper AI GitHub** offers the same features **completely free**:
-- Free meeting assistant AI
-- Free real-time transcription
-- Free AI-powered responses
-- Free stealth mode technology
-- Free privacy-first architecture
-
-**[Download MindWhisper AI Free from GitHub now](../../releases/latest) - The best free alternative to Cluely and Final Round AI!**
-
----
-
-## 🆘 Support
-
-### 📚 Documentation
-- [User Guide](../../wiki/User-Guide)
-- [FAQ](../../wiki/FAQ)
-- [Troubleshooting](../../wiki/Troubleshooting)
-- [Video Tutorials](../../wiki/Tutorials)
-
-### 💬 Get Help
-- **GitHub Issues**: [Report bugs or request features](../../issues/new)
-- **Discussions**: [Join community discussions](../../discussions)
-
-### 🐛 Report Issues
-Found a bug? [Open an issue](../../issues/new) and we'll fix it ASAP.
-
----
-
-## 📝 Changelog
-
-See [CHANGELOG.md](CHANGELOG.md) for detailed release notes.
-
-### Latest Version: v1.0.0
-- 🎉 Initial public release
-- ✨ Real-time transcription
-- 🤖 AI-powered responses
-- 🎭 Stealth mode technology
-- 🔒 Privacy-first architecture
-
----
-
-## ⚖️ Legal
-
-### License
-MindWhisper AI is proprietary software. See [LICENSE](LICENSE) for terms.
-
-### Terms of Service
-By using MindWhisper AI, you agree to our [Terms of Service](TERMS.md).
-
-### Responsible Use
-This tool is designed for personal productivity enhancement. Users are responsible for:
-- Complying with local recording laws
-- Obtaining necessary consent when required
-- Using the tool ethically and legally
-- Not violating platform terms of service
-
----
-
-## 🌟 Why Choose MindWhisper AI as Your Free Cluely Alternative?
-
-✅ **100% FREE** - Unlike Cluely or Final Round AI, no subscription required  
-✅ **GitHub Open Access** - Download MindWhisper AI free from GitHub anytime  
-✅ **Completely Invisible** - Better stealth mode than Cluely alternatives  
-✅ **Lightning Fast** - Real-time responses in milliseconds  
-✅ **Privacy-First** - Your data never leaves your device (unlike cloud-based Cluely)  
-✅ **Easy to Use** - Simple hotkeys and intuitive interface  
-✅ **Powerful AI** - State-of-the-art language models  
-✅ **No Subscription Fees** - Free meeting assistant AI forever  
-✅ **Regular Updates** - Constantly improving and adding features
-
-**MindWhisper AI GitHub** is the ultimate **free Cluely alternative** and **free Final Round AI alternative** you've been searching for!  
-
----
-
-<div align="center">
-
-## 🚀 Ready to Transform Your Meetings with the Best Free Cluely Alternative?
-
-### [⬇️ Download MindWhisper AI Free from GitHub Now](../../releases/latest)
-
-**100% FREE Forever • No Subscription Like Cluely • No Credit Card Required • Windows 10/11**
-
-**Best Free Alternative to:** Cluely | Final Round AI | Paid Meeting Assistants
-
----
-
-**MindWhisper AI** - The #1 **free Cluely alternative** and **free Final Round AI alternative** on GitHub
-
-Made with 🤍 by the MindWhisper AI Team
-
-**© 2025 MindWhisper AI. All rights reserved.**
-
----
-
-**Popular Searches:** mindwhisper ai • mindwhisper ai free • mindwhisper ai github • cluely alternative • cluely alternative free • cluely github • cluely free github • cluely alternative github • final round ai alternative • final round ai free alternative • free meeting assistant ai
-
-</div>
+### 🏷️ Tags
+`ai-assistant` `meeting-notes` `interview-helper` `presentation-support` `ollama` `gemini-ai` `electron-app` `cross-platform` `privacy-focused` `open-source` `local-ai` `screenshot-analysis` `academic-helper` `sales-assistant` `coding-companion`

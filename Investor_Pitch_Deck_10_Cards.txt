@@ -1,0 +1,192 @@
+Investor Pitch Deck — 10 Cards (Investor-Safe)
+Date: 2025-09-20
+
+—
+Card 1 — Title + Vision + Why Now
+• MindWhisper AI (Cluely): The Invisible Meeting Copilot
+• Live Mode: flags questionable commands and answers instantly during meetings
+• Vision: From meeting copilot to ambient work intelligence — private, respectful, indispensable
+• Why Now:
+  – Trust gap with assistants that join calls as visible bots
+  – On-device AI and hybrid setups now deliver usable real-time performance
+  – Enterprises demand privacy-by-default with optional cloud augmentation
+
+Image Placeholder:
+[IMAGE PLACEHOLDER — Brand title slide with minimalist premium aesthetic]
+
+—
+Card 2 — The Problem + Market Opportunity
+• Problems:
+  – Knowledge loss and follow-up chaos after meetings
+  – Assistants that “join calls” erode privacy and trust
+  – Fragmented tooling across Zoom, Teams, Meet, etc.
+  – Performance and latency challenges degrade adoption
+• Market Opportunity:
+  – Target: Knowledge workers across sales, success, product, recruiting
+  – ICP: SMB/SME teams adopting AI productivity + privacy tooling
+  – TAM > $20B (AI work assistants); SAM ~ $5B (meeting intelligence)
+  – Entry SOM: privacy-constrained verticals (regulated industries)
+
+Image Placeholder:
+[IMAGE PLACEHOLDER — Market map and problem icons]
+
+—
+Card 3 — Solution Overview + Product Demo (Prototype)
+• Solution:
+  – Invisible, cross-platform desktop copilot
+  – Privately captures all meeting audio (every participant) without joining as a bot
+  – Real-time transcription with adaptive AI
+  – Extracts actions, decisions, risks, commitments; premium distraction-free UI
+  – Privacy-first: local by default with optional cloud
+• Prototype Demo Highlights:
+  – Live: Real-time transcription of all participants (no visible bot)
+  – Live Mode: Detects questionable commands and answers instantly in-stream
+  – Command Extraction: Action items, follow-ups, decisions in-stream
+  – Premium UI: Modern, keyboard-first, stealth workflow
+
+Image Placeholder:
+[IMAGE PLACEHOLDER — Screenshot montage of live transcript, Live Mode response, insights]
+
+—
+Card 4 — Core Features (1/2): Live Mode + Capture + Transcription
+• Live Mode (Instant Answers):
+  – Detects questionable commands in real time
+  – Answers instantly with clear, actionable responses
+  – Reduces back-and-forth, flags risks, accelerates decisions
+• Comprehensive Audio Capture:
+  – Captures every participant without adding a visible bot
+  – Works across major meeting platforms seamlessly
+  – Delivers complete context for higher-quality insights
+• Real-Time Transcription:
+  – Live, high-fidelity transcription during the meeting
+  – Local-first by default with optional cloud augmentation
+  – Designed for low latency and high accuracy
+
+Image Placeholder:
+[IMAGE PLACEHOLDER — Live Mode in action + waveform with multiple speakers + clean transcript panel]
+
+—
+Card 5 — Core Features (2/2): Insights + Stealth UX + Enterprise Privacy
+• Intelligent Insights:
+  – Extracts action items, decisions, risks, and follow-ups
+  – Highlights owners and timelines when available
+  – Summarizes outcomes for instant post-meeting value
+• Stealth UX:
+  – Invisible presence with subtle, distraction-free indicators
+  – Keyboard-first controls; premium minimalist interface
+• Enterprise-Ready Privacy & Control:
+  – Privacy-first defaults with explicit opt-ins
+  – Customer-owned keys and clear data retention policies
+  – Path to SSO, admin controls, and compliance
+
+Image Placeholder:
+[IMAGE PLACEHOLDER — Insight cards + minimal UI overlay + security iconography]
+
+—
+Card 6 — High-Level Architecture + Technical Differentiators
+• High-Level Architecture:
+  – Desktop Application Layer: Premium, distraction-free interface
+  – Background Services: Secure capture, real-time transcription, insight extraction
+  – AI Orchestration: Adaptive routing between local and optional cloud models
+  – Privacy & Control: Local-first with customer-owned keys and opt-ins
+• Technical Differentiators:
+  – Streaming done right: Minimal preprocessing for low latency
+  – Smart buffering: Optimized windows for sentence integrity and accuracy
+  – Comprehensive capture: Entire meeting, not just one mic
+  – Robust process management: Clean startups, status, fallback, recovery
+  – Live Mode responsiveness: Answers questionable commands at near-instant speed
+  – Premium design system: Enterprise-grade UI that inspires trust and daily use
+
+Image Placeholder:
+[IMAGE PLACEHOLDER — High-level block diagram of layers]
+
+—
+Card 7 — Competitive Landscape + Moat
+• Competitive Landscape:
+  – Multi-million-dollar incumbents: Visible meeting bots; privacy gaps; platform lock-in
+  – Browser extensions: Limited capture fidelity; brittle to platform changes
+  – Recording tools: Strong capture; weak real-time intelligence and actionability
+• MindWhisper AI (Cluely) Advantage:
+  – Invisible, cross-platform, privacy-first
+  – Live Mode answers questionable commands instantly
+  – Flexible local-first approach with optional cloud augmentation
+• Moat & Defensibility:
+  – Stealth OS-level capture + adaptive inference pipeline
+  – Enterprise-grade privacy posture
+  – UI/UX excellence that drives adoption and retention
+  – Structured insight datasets over time (customer-owned)
+
+Image Placeholder:
+[IMAGE PLACEHOLDER — Competitor matrix highlighting Cluely advantages]
+
+—
+Card 8 — Business Model + Go-To-Market
+• Business Model:
+  – Free: Local-only transcription (usage caps)
+  – Pro: Unlimited local + optional cloud minutes
+  – Team: Centralized controls, SSO, shared libraries, priority support
+  – Enterprise: Compliance (SOC2), retention, admin policies, audit trails
+  – Add-ons: Custom on-prem models, compliance tooling, prioritized speech engines
+• GTM Strategy:
+  – Bottom-up: Instant value on install; PLG via shareable insights
+  – Partnerships: VARs/MSPs for regulated industries
+  – Enterprise motion: Security reviews, pilots, compliance roadmaps
+
+Image Placeholder:
+[IMAGE PLACEHOLDER — Pricing tiers and PLG funnel graphic]
+
+—
+Card 9 — Traction + Roadmap + Tech & Security + Ops + Metrics
+• Traction (Prototype):
+  – Comprehensive capture of all participants (no visible bot)
+  – Real-time transcription with local-first engines and optional cloud
+  – Live Mode with instant answers to questionable commands
+  – Action-item extraction and live UI; premium desktop UX
+  – Early interviews positive on privacy & invisibility
+  – Upcoming: cross-platform capture, model routing UI, admin policies
+• Roadmap (12 Months):
+  – Q1: Cross-platform capture; packaging + auto-updates; privacy-safe telemetry
+  – Q2: Admin console, SSO, enterprise policy engine; on-prem options
+  – Q3: Structured insights export (CRM, Jira); promptable templates
+  – Q4: Compliance (SOC2 Type II), governance, premium analytics
+• Technology & Security:
+  – Local-first default; cloud optional with customer-provided keys
+  – Secure key handling with masked inputs; least-privilege access
+  – Ephemeral transcripts unless opted into storage; on-prem support for regulated customers
+• Deployment & Ops:
+  – Secure desktop packaging with auto-update
+  – Optional telemetry with privacy guardrails
+• Pilot KPIs (Targets):
+  – Time-to-first-insight: < 60s from app launch
+  – Action recall@1: % of meetings with accurate action detection
+  – Speech latency p95: < 500ms (cloud), < 900ms (local)
+  – WAU retention and task completion lift
+
+Image Placeholder:
+[IMAGE PLACEHOLDER — Roadmap timeline + security icons + KPI gauges]
+
+—
+Card 10 — Financials + Ask + Use of Funds + Team + Risks + CTA
+• Financial Model (Illustrative):
+  – Pricing: Pro $15–$25; Team $30–$45; Enterprise volume pricing
+  – COGS: Local inference ≈ near-zero marginal cost; cloud minutes with margin
+  – Gross margin target: 75–85% at scale
+• The Ask:
+  – Raise $1.5M–$2.5M seed to reach GA in 12 months
+• Use of Funds:
+  – 55% Engineering & Security; 20% Design & Research; 20% GTM; 5% Legal/Compliance
+• Team:
+  – Founder/Lead Engineer: [Your Name]
+  – Advisors: [Advisor 1], [Advisor 2]
+  – Hiring: Senior desktop engineer, Security lead, Design lead, Sales engineer
+• Risks & Mitigations:
+  – OS changes/platform variability → Abstraction layer and community drivers
+  – Vendor dependency → Adaptive multi-engine strategy; local-first default
+  – Compliance hurdles → Early SOC2 planning; policy engine; least-privilege design
+  – Competitive noise → Focus on invisible UX + privacy moat; vertical workflows
+• Call to Action:
+  – Prototype ready; pilots starting soon
+  – Contact: [your.email@domain.com]
+
+Image Placeholder:
+[IMAGE PLACEHOLDER — Financial charts + funding plan + contact]

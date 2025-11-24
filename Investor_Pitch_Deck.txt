@@ -1,0 +1,353 @@
+Investor Pitch Deck - MindWhisper AI (Free Cluely)
+Date: 2025-09-20
+
+—
+Slide 1 — Title
+• MindWhisper AI: The Invisible Meeting Copilot
+• Private, real-time intelligence for calls and meetings
+• Live Mode: flags questionable commands and answers instantly
+• Prototype live; seeking investment to scale to GA
+
+Speaker Notes:
+MindWhisper AI (formerly Free Cluely) is an invisible desktop meeting copilot. It listens to your meetings privately, extracts key actions, and augments your workflow without joining as a visible participant. Our signature feature, Live Mode, detects questionable commands in real time and answers them at near‑instant speed. We’re at prototype today with strong product proof points and are raising to scale to general availability.
+
+—
+Slide 2 — The Problem
+• Knowledge loss and follow‑up chaos after meetings
+• Assistants that “join calls” erode privacy and trust
+• Fragmented tooling across Zoom, Teams, Meet, etc.
+• On‑device performance and latency challenges
+
+Speaker Notes:
+Teams lose critical insights after calls. Existing AI assistants frequently join as bots, creating friction and privacy concerns. Tooling is fragmented per meeting platform, and most solutions struggle with latency and accuracy, especially on-device.
+
+—
+Slide 3 — Our Solution
+• An invisible, cross-platform desktop copilot that:
+  – Privately captures all meeting audio (every participant) without joining as a bot
+  – Transcribes in real time with adaptive AI
+  – Extracts actions, decisions, risks, and commitments
+  – Surfaces insights in a premium, distraction-free UI
+• Privacy-first: runs locally by default with optional cloud models
+
+Speaker Notes:
+We capture what your computer already plays, transcribe in real time, and extract actionable insights. Live Mode flags questionable commands as they occur and answers them instantly. It’s invisible, private by default, and works with any meeting platform.
+
+—
+Slide 4 — Why Now
+• AI meeting assistants hit product-market interest, but trust is low
+• On-device models have reached usable latency for live transcription
+• Enterprises demand privacy-by-default with optional cloud augmentation
+• Macroeconomic pressure for productivity tooling that truly reduces overhead
+
+Speaker Notes:
+We sit at the intersection of maturity in on-device AI, enterprise privacy needs, and rising expectations for meeting productivity.
+
+—
+Slide 5 — Product Demo (Prototype Status)
+• Live: Real-time transcription of all participants (no visible bot)
+• Live Mode: Detects questionable commands and answers instantly in-stream
+• Command Extraction: Action items, follow-ups, decisions in-stream
+• Premium UI: Modern glassmorphism, keyboard-first, stealth workflow
+
+Speaker Notes:
+Our prototype is functional: end-to-end capture, transcription, Live Mode responses, and intelligent extraction with a production-grade, premium UI system. It runs today and supports both local and cloud engines for flexibility.
+
+—
+Slide 6 — Key Features
+• Live Mode: Flags questionable commands and answers instantly during the meeting
+• Comprehensive Audio Capture: Captures every participant without a bot joining
+• Real-Time Transcription: Local-first with optional cloud augmentation
+• Intelligent Insights: Smart buffering, sentence boundaries, and action-item extraction
+• Stealth UX: Invisible presence; hotkeys, subtle indicators, no meeting disruption
+• Enterprise-Ready: Privacy-first with optional cloud augmentation and key management
+
+Speaker Notes:
+We deliver the missing piece for trustworthy meeting AI—accurate, fast, and truly private by default, with a modern UX that blends into the desktop.
+
+—
+Slide 6A — Feature: Live Mode (Instant Answers)
+• Detects questionable commands in real time during the meeting
+• Answers instantly with clear, actionable responses
+• Reduces back-and-forth, flags risks, and accelerates decisions
+
+Image Placeholder:
+[IMAGE PLACEHOLDER — Live Mode in action: question detected and instant answer bubble]
+
+Speaker Notes:
+Live Mode is our marquee feature: when a questionable command or request appears, the system responds immediately with context-aware answers, removing ambiguity and speeding up execution.
+
+—
+Slide 6B — Feature: Comprehensive Audio Capture
+• Captures every participant without adding a visible bot to the call
+• Works across major meeting platforms seamlessly
+• Delivers complete context for higher-quality insights
+
+Image Placeholder:
+[IMAGE PLACEHOLDER — Visual of waveform with multiple speakers, no bot present]
+
+Speaker Notes:
+By privately capturing what your device already plays, we get the full conversation, not just one microphone—resulting in more accurate and reliable insights.
+
+—
+Slide 6C — Feature: Real-Time Transcription
+• Live, high-fidelity transcription during the meeting
+• Local-first by default with optional cloud augmentation
+• Designed for low latency and high accuracy
+
+Image Placeholder:
+[IMAGE PLACEHOLDER — Clean transcript panel updating in real time]
+
+Speaker Notes:
+Transcription is designed for speed and clarity, forming the foundation for insights and Live Mode responses without compromising privacy.
+
+—
+Slide 6D — Feature: Intelligent Insights
+• Extracts action items, decisions, risks, and follow-ups
+• Highlights owners and timelines when available
+• Summarizes outcomes for instant post-meeting value
+
+Image Placeholder:
+[IMAGE PLACEHOLDER — Insights cards: Actions, Decisions, Risks]
+
+Speaker Notes:
+We turn raw conversation into structured insights your team can act on immediately, minimizing time spent combing through notes.
+
+—
+Slide 6E — Feature: Stealth UX
+• Invisible presence with subtle, distraction‑free indicators
+• Keyboard-first controls for power users
+• Premium, minimalist interface that blends into your workspace
+
+Image Placeholder:
+[IMAGE PLACEHOLDER — Minimal UI overlay with subtle indicators and hotkeys]
+
+Speaker Notes:
+The experience is designed to be felt, not seen—always helpful, never intrusive—so users keep it on all day without fatigue.
+
+—
+Slide 6F — Feature: Enterprise-Ready Privacy & Control
+• Privacy-first defaults with explicit opt-ins
+• Customer-owned keys and clear data retention policies
+• Path to enterprise features: SSO, admin controls, compliance
+
+Image Placeholder:
+[IMAGE PLACEHOLDER — Security/lock iconography with policy toggles]
+
+Speaker Notes:
+Trust is non-negotiable. We put customers in control of their data and provide the governance they need to adopt at scale.
+
+—
+Slide 7 — Architecture Overview
+• Desktop Application Layer:
+  – Premium, distraction‑free interface with keyboard‑first workflows
+• Background Services:
+  – Secure audio capture, real‑time transcription, and insight extraction
+• AI Orchestration Layer:
+  – Adaptive routing between local and optional cloud models
+• Privacy & Control:
+  – Local‑first design with customer‑owned keys and explicit opt‑ins
+
+Speaker Notes:
+A modular architecture separates the desktop experience, background services, and AI orchestration. We can swap engines and iterate quickly while preserving stable contracts.
+
+—
+Slide 8 — Technical Differentiators
+• Streaming done right: Minimal preprocessing and direct streaming for low latency
+• Smart buffering: Optimized windows for sentence integrity and accuracy
+• Comprehensive capture: Captures the entire meeting reliably, not just one mic
+• Robust IPC + process management: Clean startups, status, fallback, and recovery
+• Live Mode responsiveness: Answers questionable commands at near‑instant speed
+• Premium design system: Enterprise-grade UI that inspires trust and daily use
+
+Speaker Notes:
+We follow best practices for continuous streaming and efficient inference, resulting in low latency, high accuracy, and a polished experience. Live Mode showcases our responsiveness during real meetings.
+
+—
+Slide 9 — Market Opportunity
+• Target Users: Knowledge workers, sales, customer success, product, recruiting
+• Initial ICP: SMB/SME teams adopting AI productivity and privacy tooling
+• TAM/SAM/SOM (est.):
+  – TAM: >$20B AI work assistant market
+  – SAM: ~$5B meeting intelligence subset
+  – SOM (entry): Focused verticals with privacy constraints (regulated industries)
+
+Speaker Notes:
+Meeting intelligence is large and growing. Our wedge: truly private, invisible capture with enterprise-friendly controls.
+
+—
+Slide 10 — Competitive Landscape
+• Multi-million-dollar incumbents: Join as visible participants; privacy gaps; platform lock‑in
+• Browser Extensions: Limited capture fidelity, fragile to platform changes
+• Recording Tools: Great capture, weak on real-time intelligence and actionability
+• MindWhisper AI (Cluely): Invisible, cross‑platform, privacy‑first; Live Mode answers questionable commands instantly
+
+Speaker Notes:
+We outperform multi‑million‑dollar incumbents on trust (invisible, private), responsiveness (Live Mode), and UX polish. Our capture method avoids joining calls and just works across platforms.
+
+—
+Slide 11 — Moat and Defensibility
+• Stealth OS-level capture + adaptive inference pipeline
+• Enterprise-grade privacy posture: local-first with optional cloud augmentation
+• UI/UX excellence that drives adoption and retention
+• Data network effects: Structured action/decision datasets over time (customer-owned)
+
+Speaker Notes:
+Our defensibility comes from the combination of OS-level capabilities, flexible AI routing, and an interface people will actually use daily. Over time, we build structured insight datasets (under customer control) that improve outcomes.
+
+—
+Slide 12 — Business Model
+• Plans:
+  – Free tier: Local-only transcription (usage caps)
+  – Pro: Unlimited local, optional cloud minutes
+  – Team: Centralized controls, SSO, shared libraries, priority support
+  – Enterprise: Compliance (SOC2), retention, admin policies, audit trails
+• Add-ons: Custom on-prem models, compliance tooling, prioritized speech engines
+
+Speaker Notes:
+Tiered SaaS with optional metered minutes for cloud engines. Teams and enterprise monetize well through controls, compliance, and support.
+
+—
+Slide 13 — Go-To-Market
+• Bottom-up: Individual professionals via simple install and instant value
+• Product-led growth: Shareable insights, templates, and action summaries
+• Partnerships: VARs and MSPs servicing regulated industries
+• Enterprise motion: Security reviews, pilots, and compliance roadmaps
+
+Speaker Notes:
+Start with a frictionless desktop app and expand usage organically. Once teams rely on it, enterprise deals follow.
+
+—
+Slide 14 — Traction (Prototype)
+• Working prototype with:
+  – Comprehensive audio capture of all participants (no visible bot)
+  – Real-time transcription with local-first engines and optional cloud
+  – Live Mode with instant answers to questionable commands
+  – Action-item extraction and live UI
+  – Premium desktop UX
+• Early user interviews positive on privacy & invisibility
+• Upcoming: cross-platform loopback, model routing UI, admin policies
+
+Speaker Notes:
+We have a credible prototype demonstrating our core value. Feedback consistently highlights privacy, invisibility, and the polished feel.
+
+—
+Slide 15 — Roadmap (Next 12 Months)
+• Q1: Cross-platform loopback; packaging and auto-updates; telemetry (privacy-safe)
+• Q2: Admin console, SSO, enterprise policy engine; on-prem model options
+• Q3: Structured insights export (CRM, Jira); promptable meeting templates
+• Q4: Compliance (SOC2 Type II), governance, premium analytics
+
+Speaker Notes:
+Execution is straightforward: harden capture, scale distribution, and unlock enterprise features. Compliance is a key milestone for enterprise deals.
+
+—
+Slide 16 — Technology & Security
+• Local-first default; cloud optional with customer-provided keys
+• Secure key handling with masked UI fields and least-privilege access
+• Data handling: ephemeral transcripts unless opted into storage
+• Architecture supports on-prem deployment for regulated customers
+
+Speaker Notes:
+Security and privacy are designed-in: We never require sending audio off-device. When customers opt-in, they maintain key custody and tenancy.
+
+—
+Slide 17 — Financial Model (Illustrative)
+• Pricing assumptions:
+  – Pro: $15–$25/user/month
+  – Team: $30–$45/user/month
+  – Enterprise: volume pricing; optional managed minutes
+• COGS:
+  – Local inference ≈ near-zero marginal cost
+  – Cloud ASR minutes billed at negotiated rates; passed through with margin
+• Gross margin target: 75–85% at scale
+
+Speaker Notes:
+Local inference keeps margins high. Cloud minutes are variable COGS but can be priced with margin, and many customers will remain local-first.
+
+—
+Slide 18 — The Ask
+• Raise: $1.5M–$2.5M seed to reach GA in 12 months
+• Use of Funds:
+  – Engineering: cross-platform capture; enterprise features; security
+  – Design & Research: workflows for key verticals
+  – GTM: PLG motion, partnerships, and initial enterprise sales
+
+Speaker Notes:
+This round gets us to a GA version with enterprise readiness and establishes our GTM engine.
+
+—
+Slide 19 — Use of Funds Breakdown
+• 55% Engineering & Security
+• 20% Design & Research
+• 20% GTM (marketing, community, partnerships)
+• 5% Legal/Compliance (SOC2 readiness, audits)
+
+Speaker Notes:
+Capital allocation prioritizes product readiness and security to win trust, with enough GTM to seed adoption.
+
+—
+Slide 20 — Team
+• Founder/Lead Engineer: [Your Name] — Electron/React/TypeScript specialist; audio and AI systems
+• Advisors: [Advisor 1], [Advisor 2]
+• Hiring Plan: Senior desktop engineer, Security lead, Design lead, Sales engineer
+
+Speaker Notes:
+Highlight your deep expertise in desktop app engineering and applied AI. Advisors help with enterprise readiness and GTM.
+
+—
+Slide 21 — Risks & Mitigations
+• OS audio changes / platform variability → Maintain abstraction layer and community drivers
+• Cloud vendor dependency → Multi-engine strategy; local-first default
+• Compliance hurdles → Early SOC2 planning, logging policy engine, least-privilege design
+• Competitive noise → Focus on invisible UX + privacy moat; verticalized workflows
+
+Speaker Notes:
+We address key execution risks up front with architecture choices and a crisp product strategy.
+
+—
+Slide 22 — Vision
+• From meeting copilot to ambient work intelligence
+• Continuous, private context that powers planning, CRM, and execution
+• AI that feels invisible, respectful, and indispensable
+
+Speaker Notes:
+The long-term vision is broader than meetings: a private, ambient layer that understands your work across tools—always helpful, never intrusive.
+
+—
+Slide 23 — Call to Action
+• Join us to build the most trusted meeting intelligence platform
+• Prototype ready; pilots starting soon
+• Contact: [your.email@domain.com]
+
+Speaker Notes:
+We’re ready to pilot with design partners and scale. Let’s talk.
+
+—
+Appendix A — Platform Overview (High-Level)
+• Experience Layer: Premium, distraction‑free desktop interface
+• Processing Layer: Secure capture, real‑time transcription, insight extraction
+• AI Layer: Local-first models with optional cloud augmentation
+• Governance: Customer key ownership, opt‑in storage, enterprise policies
+
+—
+Appendix B — Brand Principles
+• Premium black/white aesthetic with refined elevation and motion
+• Language: Privacy-first, invisible, fast, and respectful
+• Naming: Consistent, trustworthy, enterprise-ready
+
+—
+Appendix C — Deployment & Ops
+• Secure desktop packaging with auto-update
+• Provider keys handled securely with masked inputs in settings
+• Optional telemetry with privacy guardrails
+
+—
+Appendix D — Metrics (Pilot KPIs)
+• Time-to-first-insight (TTFI): target < 60 seconds from app launch
+• Action recall@1: % of meetings with accurate action detection
+• Speech latency p95: target < 500ms (cloud), < 900ms (local)
+• Weekly Active Users (WAU) retention and task completion lift
+
+—
+End
