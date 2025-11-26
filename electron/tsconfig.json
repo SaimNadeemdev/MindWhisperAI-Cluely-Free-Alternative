@@ -1,0 +1,16 @@
+{
+  "compilerOptions": {
+    "target": "ESNext",
+    "module": "Node16",
+    "allowJs": true,
+    "skipLibCheck": true,
+    "esModuleInterop": true,
+    "noImplicitAny": true,
+    "sourceMap": true,
+    "jsx": "react-jsx",
+    "outDir": "../dist-electron",
+    "moduleResolution": "Node16",
+    "resolveJsonModule": true
+  },
+  "include": ["*.ts"]
+}
